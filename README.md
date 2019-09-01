@@ -1,2 +1,2 @@
 # studentportal
-Custom Webstie for Personel Projetc
+Custom WebSite for Students (Personel Project)
