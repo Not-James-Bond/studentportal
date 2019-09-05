@@ -2245,6 +2245,10 @@ ul {
   position: relative;
 }
 
+.dropdown-submenu:hover>a:after {
+  border-left-color:#555;
+}
+
 .dropdown-submenu>a:after {
   content: "\f0da";
   float: right;
