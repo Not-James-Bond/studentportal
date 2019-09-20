@@ -2553,6 +2553,7 @@ ul {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
   .our_service {
     padding: 50px 0 0;
+    
   }
 }
 
@@ -2565,7 +2566,7 @@ ul {
 
 /* line 12, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .col-sm-6:nth-child(2), .our_service .col-xl-4:nth-child(2) {
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 @media (max-width: 991px) {
@@ -2584,7 +2585,7 @@ ul {
 
 /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .col-sm-6:nth-child(3), .our_service .col-xl-4:nth-child(3) {
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 @media (max-width: 991px) {
