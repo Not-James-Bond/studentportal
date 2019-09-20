@@ -2649,7 +2649,11 @@ ul {
 
 /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .single_service {
+<<<<<<< HEAD
   padding: 40px 45px;
+=======
+  padding: 15px 10px;
+>>>>>>> dbe94fdaaa543fd3f395aa7f8b446b8f899f0457
   border: 1px solid #e8e9eb;
 background-color:#444745;
   -webkit-transition: 0.6s;
