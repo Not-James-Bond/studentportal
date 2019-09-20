@@ -2649,8 +2649,9 @@ ul {
 
 /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .single_service {
-  padding: 45px 40px;
+  padding: 40px 45px;
   border: 1px solid #e8e9eb;
+background-color:#444745;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 background-color:#444745;
