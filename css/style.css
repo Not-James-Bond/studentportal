@@ -2653,6 +2653,7 @@ ul {
   border: 1px solid #e8e9eb;
   -webkit-transition: 0.6s;
   transition: 0.6s;
+background-color:#444745;
 }
 
 @media (max-width: 991px) {
