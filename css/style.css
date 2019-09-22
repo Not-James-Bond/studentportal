@@ -33,9 +33,12 @@ input:hover, input:focus {
 
 /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_common.scss */
 .section_padding {
-  padding: 140px 0px;
+  padding: 20px 0px;
 }
 
+.section_pad {
+  padding: 70px 14px;
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_common.scss */
   .section_padding {
@@ -3220,8 +3223,8 @@ background-color:#444745;
 /* line 72, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_project.scss */
 .our_project .single_our_project:hover .single_offer .hover_text {
   opacity: 1;
-  left: 15px;
-  right: 15px;
+  left: 0px;
+  right: 0px;
 }
 
 /* line 81, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_project.scss */
