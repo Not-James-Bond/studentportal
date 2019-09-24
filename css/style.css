@@ -707,7 +707,7 @@ ul {
 }
 
 /* line 10, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_area a {
+.proj_area a {
   color: #848484 !important;
   text-decoration: none;
   -webkit-transition: 0.5s;
@@ -715,7 +715,7 @@ ul {
 }
 
 /* line 14, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_area a:hover, .blog_area a :hover {
+.proj_area a:hover, .proj_area a :hover {
   color: #00d089;
 }
 
@@ -1049,9 +1049,9 @@ ul {
 
 /* End Causes Area css
 ============================================================================================ */
-/*================= latest_blog_area css =============*/
+/*================= latest_proj_area css =============*/
 /* line 370, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.latest_blog_area {
+.latest_proj_area {
   background: #f9f9ff;
 }
 
@@ -1349,7 +1349,7 @@ ul {
 }
 
 /* line 656, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .single_sidebar_widget {
+.blog_right_sidebar .single_sidebar_widget { 
   background: #fbf9ff;
   padding: 30px;
   margin-bottom: 30px;
@@ -1757,7 +1757,7 @@ ul {
 /* line 1197, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .single-post-area .blog-author a {
   display: inline-block;
-}
+} 
 
 /* line 1201, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .single-post-area .blog-author a:hover {
@@ -1766,7 +1766,7 @@ ul {
 
 /* line 1206, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .single-post-area .blog-author p {
-  margin-bottom: 0;
+  
   font-size: 15px;
 }
 
@@ -1779,7 +1779,7 @@ ul {
 .single-post-area .navigation-area {
   border-bottom: 1px solid #eee;
   padding-bottom: 30px;
-  margin-top: 55px;
+  margin-bottom: 30px;
 }
 
 /* line 1223, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
