@@ -33,7 +33,7 @@ input:hover, input:focus {
 
 /* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_common.scss */
 .section_padding {
-  padding: 20px 0px;
+  padding: 80px 0px;
 }
 
 .section_pad {
@@ -1212,7 +1212,7 @@ ul {
 
 /* line 533, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .blog_details p {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 /* line 537, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
@@ -1334,20 +1334,60 @@ ul {
   }
 }
 
-/* line 643, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .widget_title {
-  font-size: 20px;
-  margin-bottom: 40px;
+/* Program Search Widget */
+/* line 656, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .single_sidebar_widget { 
+  padding: 30px;
+  
 }
 
-/* line 648, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .widget_title::after {
-  content: "";
-  display: block;
-  padding-top: 15px;
-  border-bottom: 1px solid #f0e9ff;
+/* line 665, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .search_widget .form-control {
+  height: 50px;
+  border-color: #f0e9ff;
+  font-size: 13px;
+  color: #999999;
+  padding-left: 20px;
+  border-radius: 0;
+  border-right: 0;
 }
 
+/* line 674, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .search_widget .form-control::placeholder {
+  color: #999999;
+}
+
+/* line 678, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .search_widget .form-control:focus {
+  border-color: #f0e9ff;
+  outline: 0;
+  box-shadow: none;
+}
+
+/* line 687, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .search_widget .input-group button {
+  background: #fff;
+  border-left: 0;
+  border: 1px solid #f0e9ff;
+  padding: 4px 15px;
+  border-left: 0;
+}
+
+/* line 694, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .search_widget .input-group button i,
+.prog_right_sidebar .search_widget .input-group button span {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* line 956, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
+.prog_right_sidebar .br {
+  width: 100%;
+  height: 1px;
+  background: #eeeeee;
+  margin: 30px 0px;
+}
+/*End/
 /* line 656, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
 .blog_right_sidebar .single_sidebar_widget { 
   background: #fbf9ff;
@@ -1392,149 +1432,6 @@ ul {
 .blog_right_sidebar .search_widget .input-group button span {
   font-size: 14px;
   color: #999999;
-}
-
-/* line 706, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .form-control {
-  height: 50px;
-  border-color: #f0e9ff;
-  font-size: 13px;
-  color: #999999;
-  padding-left: 20px;
-  border-radius: 0;
-}
-
-/* line 715, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .form-control::placeholder {
-  color: #999999;
-}
-
-/* line 719, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .form-control:focus {
-  border-color: #f0e9ff;
-  outline: 0;
-  box-shadow: none;
-}
-
-/* line 728, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .input-group button {
-  background: #fff;
-  border-left: 0;
-  border: 1px solid #f0e9ff;
-  padding: 4px 15px;
-  border-left: 0;
-}
-
-/* line 735, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .newsletter_widget .input-group button i,
-.blog_right_sidebar .newsletter_widget .input-group button span {
-  font-size: 14px;
-  color: #999999;
-}
-
-/* line 748, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li {
-  border-bottom: 1px solid #f0e9ff;
-  transition: all 0.3s ease 0s;
-  padding-bottom: 12px;
-}
-
-/* line 753, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li:last-child {
-  border-bottom: 0;
-}
-
-/* line 757, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li a {
-  font-size: 14px;
-  line-height: 20px;
-  color: #888888;
-}
-
-/* line 762, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li a p {
-  margin-bottom: 0px;
-}
-
-/* line 767, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .post_category_widget .cat-list li + li {
-  padding-top: 15px;
-}
-
-/* line 784, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body {
-  justify-content: center;
-  align-self: center;
-  padding-left: 20px;
-}
-
-/* line 789, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
-  font-size: 16px;
-  line-height: 20px;
-  margin-bottom: 6px;
-  transition: all 0.3s linear;
-}
-
-/* line 800, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body a:hover {
-  color: #fff;
-}
-
-/* line 806, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item .media-body p {
-  font-size: 14px;
-  line-height: 21px;
-  margin-bottom: 0px;
-}
-
-/* line 813, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .popular_post_widget .post_item + .post_item {
-  margin-top: 20px;
-}
-
-/* line 821, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .tag_cloud_widget ul li {
-  display: inline-block;
-}
-
-/* line 824, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .tag_cloud_widget ul li a {
-  display: inline-block;
-  border: 1px solid #eeeeee;
-  background: #fff;
-  padding: 4px 20px;
-  margin-bottom: 8px;
-  margin-right: 3px;
-  transition: all 0.3s ease 0s;
-  color: #888888;
-  font-size: 13px;
-}
-
-/* line 835, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .tag_cloud_widget ul li a:hover {
-  background: #00d089;
-  color: #fff !important;
-  -webkit-text-fill-color: #fff;
-  text-decoration: none;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-/* line 850, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .instagram_feeds .instagram_row {
-  display: flex;
-  margin-right: -6px;
-  margin-left: -6px;
-}
-
-/* line 856, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
-.blog_right_sidebar .instagram_feeds .instagram_row li {
-  width: 33.33%;
-  float: left;
-  padding-right: 6px;
-  padding-left: 6px;
-  margin-bottom: 15px;
 }
 
 /* line 956, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog.scss */
@@ -2150,6 +2047,15 @@ ul {
   padding: 0rem !important;
 }
 
+.main_menu .log-in {
+  padding: 0rem !important;
+}
+
+.log-in:hover {
+  fill: green ;
+  padding: 0rem !important;
+}
+
 @media (max-width: 991px) {
   /* line 10, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_menu.scss */
   .main_menu .navbar-brand img {
@@ -2570,7 +2476,7 @@ ul {
 
 /* line 12, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .col-sm-6:nth-child(2), .our_service .col-xl-4:nth-child(2) {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 @media (max-width: 991px) {
@@ -2589,7 +2495,7 @@ ul {
 
 /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .col-sm-6:nth-child(3), .our_service .col-xl-4:nth-child(3) {
-  margin-top: 0;
+  margin-top: 40px;
 }
 
 @media (max-width: 991px) {
@@ -2650,12 +2556,162 @@ ul {
 .our_service .single_feature_text p {
   line-height: 1.8;
 }
+/* Program Page */
+/* line 32, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+.program_pg .single_feature_text h2 {
+  font-size: 42px;
+  line-height: 1.222;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  /* line 32, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+  .program_pg .single_feature_text h2 {
+    margin-top: 0px;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 32, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+  .program_pg .single_feature_text h2 {
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 32, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+  .program_pg .single_feature_text h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 32, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+  .program_pg .single_feature_text h2 {
+    margin-top: 0px;
+    font-size: 35px;
+  }
+}
+
+/* line 59, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+.program_pg .single_feature_text p {
+  line-height: 1.8;
+}
+
+
+.progran_pg .program_serv {
+  padding: 15px 10px;
+  border: 1px solid #e8e9eb;
+  background-color:#444745;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
+.program_pg .program_serv {
+  padding: 15px 10px;
+  border: 1px solid #e8e9eb;
+  background-color:#444745; 
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+
+}
+
+@media (max-width: 991px) {
+  /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+  .program_pg .program_serv {
+    padding: 25px;
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+  .program_pg .program_serv {
+    margin-top: 25px;
+  }
+}
+
+/* line 80, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv span {
+  font-size: 16px;
+  margin-bottom: 21px;
+  display: inline-block;
+  color: #00d089;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+/* line 88, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv h4 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 30px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+@media (max-width: 576px) {
+  /* line 88, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+  .program_pg .program_serv h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  /* line 88, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+  .program_pg .program_serv h4 {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 88, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+  .program_pg .program_serv h4 {
+    margin-bottom: 15px;
+  }
+}
+
+/* line 110, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv p {
+  color: #7f7f7f;
+  line-height: 1.8;
+  font-size: 15px;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+/* line 116, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv:hover {
+  background-color: #0042ff;
+}
+
+/* line 118, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv:hover h4 {
+  color: #fff;
+}
+
+/* line 121, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv:hover p {
+  color: #fff;
+}
+
+/* line 126, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_program_pg.scss */
+.program_pg .program_serv:hover ul li a {
+  color: #fff;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
 
 /* line 64, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_our_service.scss */
 .our_service .single_service {
-  padding: 15px 10px;
+  padding: 45px 40px;
   border: 1px solid #e8e9eb;
-background-color:#444745;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 
@@ -5692,13 +5748,6 @@ h6 {
   border: 0px solid transparent;
 }
 
-/* line 18, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog_part.scss */
-.blog_part .blog_right_sidebar .widget_title {
-  font-size: 20px;
-  margin-bottom: 40px;
-  font-style: inherit !important;
-}
-
 @media (max-width: 576px) {
   /* line 23, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_blog_part.scss */
   .blog_part .single-home-blog {
@@ -6040,9 +6089,10 @@ h6 {
 /*=================== contact form start ====================*/
 /* line 39, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_contact.scss */
 .contact-title {
-  font-size: 27px;
+  margin-top: 50px;
+  font-size: 30px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 /* line 47, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_contact.scss */
@@ -6052,7 +6102,7 @@ h6 {
 
 /* line 51, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_contact.scss */
 .form-contact .form-group {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
 /* line 53, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_contact.scss */
