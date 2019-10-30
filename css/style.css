@@ -2048,6 +2048,7 @@ ul {
 }
 
 .main_menu .log-in {
+  float: right;
   padding: 0rem !important;
 }
 
@@ -6809,4 +6810,3 @@ h6 {
   font-weight: 400;
 }
 
-/*# sourceMappingURL=../css/style.map */
